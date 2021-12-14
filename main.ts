@@ -1,7 +1,7 @@
 basic.forever(function () {
     led.plotBarGraph(
     input.lightLevel(),
-    0
+    100
     )
     serial.writeNumber(input.lightLevel())
 })
